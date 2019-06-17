@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">RooMates</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_check">check</string>
+    <string name="title_activity_open_apartment">OpenApartment</string>
+    <string name="ApartmentName">שם הדירה</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btitle">Load Contacts</string>
+    <string name="NewShoppingList">רשימה חדשה</string>
+    <string name="title_activity_q">QA</string>
+    <string name="log_out">התנתק</string>
+    <string name="newList"><u>רשימה חדשה</u></string>
+    <string name="btnTransmistion" />
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="payDay">בחר יום חיוב:</string>
+    <string name="totalAmountHint"><i>"סכום לתשלום"</i></string>
+    <string name="amountPayedHint"><i>"כמה שילמתי"</i></string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="apartment_has">לדירה יש</string>
+    <string name="bills">חשבונות</string>
+    <string name="add_roommate">הוסף שותף</string>
+    <string name="choose_roommates">בחר את השותפים שלך</string>
+    <string name="registration">הרשמה</string>
+    <string name="finished">סיימתי</string>
+    <string name="skip">דלג</string>
+    <string name="enterphonenumber">הכנס מספר טלפון</string>
+    <string name="error_empty_message">לא ניתן לשלוח הודעה ריקה</string>
+    <string name="water">מים</string>
+    <string name="internet">אינטרנט</string>
+    <string name="electricity">חשמל</string>
+    <string name="television">טלויזיה</string>
+    <string name="arnona">ארנונה</string>
+    <string name="gas">גז</string>
+    <string name="other">אחר</string>
+    <string name="pie_chart_center_text">כמה שילמנו</string>
+    <string name="bill_added_successfully">חשבון חדש התווסף בהצלחה!</string>
+    <string name="error_bill_amont_is_required">יש להכניס סכום חשבון</string>
+    <string name="error_bill_amont_greater_then_zero">סכום החשבון חייב להיות גדול מ-0</string>
+    <string name="error_amont_payed_lower_then_bill_amount">הסכום ששולם אינו יכול להיות גדול מסכום החשבון</string>
+    <string name="error_amount_payed_lower_then_0">הסכום ששולם חייב להיות גדול מ-0</string>
+    <string name="error_userName_and_password_is_required">יש להזין שם משתמש וסיסמא</string>
+    <string name="error_wrong_userName_or_password">מספר טלפון או סיסמא שגויים</string>
+    <string name="error_wrong_code">קוד שגוי</string>
+    <string name="take_photo">צלם תמונה</string>
+    <string name="choose_from_gallery">בחר תמונה מהגלריה</string>
+    <string name="cancel">ביטול</string>
+    <string name="how_roommates_see_you">איך השותפים ייראו אותך</string>
+    <string name="remove_roomate">להסיר שותף?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="errer_product_name_only_charactes">שם המוצר יכול להכיל אותיות בלבד</string>
+    <string name="verification_successful">האימות הצליח</string>
+    <string name="error_something_went_wrong">משהו השתבש</string>
+    <string name="code_must_be_4_digits">קוד לא חוקי, קוד האימות מכיל 4 ספרות</string>
+    <string name="error_illegal_phone_number">מספר טלפון לא חוקי</string>
+    <string name="cant_be_empty">לא יכול להיות ריק</string>
+    <string name="passwerd_cant_be_lower_then_6_chars">סיסמא חייבת להכיל לפחות 6 תוים</string>
+    <string name="firstName_too_short">שם פרטי קצר מדי</string>
+    <string name="lastName_too_short">שם משפחה קצר מידיי</string>
+    <string name="pay_day">יום לתשלום</string>
+    <string name="bills_amount">סך כל החשבונות הוא</string>
+    <string name="payed_until_now">" עד כה שולמו"</string>
+    <string name="NIS">שח</string>
+    <string name="left_to_pay">"יתרה לתשלום "</string>
+    <string name="total_sum_per_roommate">" סך הכל לשותף"</string>
+    <string name="apartment_cars_has">בעגלת הקניות של הדירה יש</string>
+    <string name="products">מוצרים</string>
+    <string name="a_month">לחודש</string>
+    <string name="chars_range">^[ א-ת]+$</string>
+    <string name="press_to_exit">לחץ פעם נוספת ליציאה.</string>
+    <string name="bill_state">מצב החשבונות</string>
+    <string name="messages">הודעות</string>
+    <string name="enter_phone_number">הכנס מספר טלפון</string>
+    <string name="first_name">שם פרטי</string>
+    <string name="last_name">שם משפחה</string>
+    <string name="password">סיסמא</string>
+    <string name="sign_up">הירשם</string>
+    <string name="already_have_an_account">יש לך כבר חשבון?</string>
+    <string name="login">התחבר</string>
+    <string name="got_something_to_say">יש לך משהו להגיד..?</string>
+    <string name="phone_number">מספר טלפון</string>
+    <string name="error_enter_from_date">יש להכניס תאריך תחילה</string>
+    <string name="error_enter_to_date">ייש להכניס תאריך סיום</string>
+    <string name="contact_us">צור קשר</string>
+    <string name="questions_and_answers">שאלות ותשובות</string>
+    <string name="enter_code">הכנס את הקוד</string>
+    <string name="confirm">אישור</string>
+    <string name="confirm_phone_number">אמת מספר טלפון</string>
+    <string name="add_item">הוסף מוצר</string>
+    <string name="search">חיפוש</string>
+    <string name="press_to_add_bill">אין לדירה חשבונות. לחץ על לחצן הפלוס להוספה</string>
+    <string name="bill_added">הוסיף חשבון חדש</string>
+    <string name="contact">ליצירת קשר יש לפנות למייל בכתובת</string>
+    <string name="mail">support@roomates.96.it</string>
+    <string name="added_new_roommate">הוסיף שותף חדש</string>
+    <string name="update">עדכון</string>
+
+
+    <string-array name="daysOfMonth">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+
+    </string-array>
+
+    <string-array name="questions">
+        <item>למה צריכים את המספר שלי?</item>
+        <item>למה אני לא מצליח להתחבר?</item>
+        <item>איך אני מוסיף שותף לדירה?</item>
+        <item>הוספתי שותף אך אינני רואה אותו ברשימת השותפים</item>
+        <item>איך אני מוחק שותף מהדירה?</item>
+        <item>ההוספתי מוצר/חשבון ועכשיו אני לא רואה אותו</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>מספר הטלפון משמש לצורך זיהוי בעת התחברות לאפליקציה בלבד ולא נעשה בו כל שימוש מעבר לזה</item>
+        <item>על מנת להתחבר לאפליקציה יש צורך בחיבור לאינטרנט</item>
+        <item>על מנת להוסיף שותפיל יש להיכנס למסך שותפים דרך התפריט וללחוץ על כפתור הוספת שותף. יש לבחור את השותפים שברצונך להוסיף מרשימת אנשי הקשר</item>
+        <item>על מנת לראות את השותף שהוספת עליו להירשם לאפליקציה</item>
+        <item>יש ללחוץ לחיצה ארוכה על השותף אותו ברצונך למחוק ברשימת השותפים ולאחר מכן לחיצה על מחיקת שותף</item>
+        <item>לכל שותפי הדירה יכולים להוסיף ולמחוק מוצרים/חשבונות. אם אינך רואה מוצר/חשבון שהוספת הוא נמחק על ידי שותף אחר</item>
+    </string-array>
+
+
+
+</resources>

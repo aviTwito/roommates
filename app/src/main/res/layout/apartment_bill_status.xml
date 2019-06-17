@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ProgressBar
+        android:id="@+id/progressIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/bills_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_back"
+        android:drawablePadding="10dp"
+        android:paddingRight="5dp"
+        android:text="לדירה יש 5 חשבונות \nסך כל החשבונות 900 שח\עד כה שולמו 250 שחn"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/shoping_cart_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bills_state"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_back"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/cart"
+        android:padding="5dp"
+        android:paddingRight="5dp"
+        android:text="בעגלת הקניות יש 9 מוצרים"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:visibility="gone"/>
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

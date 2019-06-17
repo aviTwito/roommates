@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   >
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/choose_roommates"
+        android:id="@+id/tvChooseContacts"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="20dp"/>
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:padding="2dp"
+        android:layout_below="@+id/tvChooseContacts"
+        android:queryHint="@string/search"
+        />
+
+    <ListView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonLayout"
+        android:layout_below="@+id/search_view"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lv"
+        android:layout_marginBottom="40dp"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <Button
+            android:id="@+id/addSelectedContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finished"
+            android:textSize="18sp"
+            android:layout_weight="0.5"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip"
+            android:textSize="18sp"
+            android:layout_weight="0.5"
+            android:textColor="#fff"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

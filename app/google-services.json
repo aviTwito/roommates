@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "905274909466",
+    "firebase_url": "https://roomates-1330.firebaseio.com",
+    "project_id": "roomates-1330",
+    "storage_bucket": "roomates-1330.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905274909466:android:e5ee91e0d828812e",
+        "android_client_info": {
+          "package_name": "atoa.roomates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905274909466-sjbnj849hitqo4isps3oehb9geoui1ts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "atoa.roomates",
+            "certificate_hash": "D50DD7E9525B644084FCFFFECA4DC89E88472C68"
+          }
+        },
+        {
+          "client_id": "905274909466-fm8qdph8sn2tchksbnu3j6nags2dstrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqdlSrc72Sz5FIGs7t4VaNXZ1oAVyu7_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

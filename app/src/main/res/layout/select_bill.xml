@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#0091cb"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:weightSum="3"
+        android:id="@+id/check">
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/computer"
+            android:paddingTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:text="אינטרנט"
+            android:textSize="10dp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:id="@+id/btnInternet"
+            android:transitionName="@string/btnTransmistion"
+            />
+
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/gas"
+            android:paddingTop="14dp"
+            android:layout_marginLeft="10dp"
+            android:text="גז"
+            android:textSize="10dp"
+            android:transitionName="@string/btnTransmistion"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:id="@+id/btnGas" />
+
+        <Button
+            android:transitionName="@string/btnTransmistion"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/hdtv"
+            android:paddingTop="14dp"
+            android:layout_marginLeft="10dp"
+            android:text="טלויזיה"
+            android:textSize="10dp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:id="@+id/btnTv" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal"
+        android:layout_below="@id/check"
+        android:paddingTop="10dp">
+
+        <Button
+            android:transitionName="@string/btnTransmistion"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/bill"
+            android:paddingTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:text="ארנונה"
+            android:textSize="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btnArnona" />
+
+        <Button
+            android:transitionName="@string/btnTransmistion"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/water"
+            android:paddingTop="12dp"
+            android:text="מים"
+            android:textSize="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btnWater" />
+
+        <Button
+            android:transitionName="@string/btnTransmistion"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/electrical"
+            android:paddingTop="12dp"
+            android:text="חשמל"
+            android:textSize="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btnElctricity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:transitionName="@string/btnTransmistion"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/notepad"
+            android:paddingTop="7dp"
+            android:text="אחר"
+            android:textSize="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btnOther" />
+        </LinearLayout>
+
+
+</LinearLayout>
